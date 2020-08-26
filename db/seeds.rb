@@ -10,9 +10,10 @@
 5.times do |i|
 d = Department.create(name: "Department #{i}")
 
+# for d.each do
 # d.items.create(name: 'Item 1', price: rand(0.1..500.0))
 
 
 puts 'seeded'
-# puts d.topics
+# puts d.items
 end
